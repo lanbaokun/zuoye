@@ -1,0 +1,145 @@
+@import url(conmon.css);
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.wrap .left {
+  width: 1.6rem;
+  height: 100%;
+  background: #2F3B4C;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap .left .left_top {
+  width: 100%;
+  height: 2rem;
+  border-bottom: 1px solid #555F72;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wrap .left .left_top .head {
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap .left .left_top .head span {
+  width: .2rem;
+  height: .2rem;
+  background: #C1C1C1;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate3d(-50%, -70%, 0);
+  border-radius: 50%;
+}
+
+.wrap .left .left_top .head p {
+  width: .33rem;
+  height: .17rem;
+  background: #C1C1C1;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: .15rem;
+}
+
+.wrap .left .left_top h1 {
+  font-family: PingFangSC-Regular;
+  font-size: .12rem;
+  color: #707C89;
+  line-height: 3;
+}
+
+.wrap .left .left_top .yuan {
+  width: .1rem;
+  height: .1rem;
+  background: #229FFF;
+  border-radius: 50%;
+}
+
+.wrap .left .left_center {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap .left .left_center ul {
+  flex: 1;
+}
+
+.wrap .left .left_center ul li {
+  width: 100%;
+}
+
+.wrap .left .left_center ul li .li-one {
+  display: flex;
+  align-items: center;
+}
+
+.wrap .left .left_center ul li .li-one span {
+  width: 50%;
+  font-family: PingFangSC-Regular;
+  font-size: .12rem;
+  color: #6C7885;
+}
+
+.wrap .left .left_center ul li .li-one i {
+  margin-left: .2rem;
+  color: #6C7885;
+}
+
+.wrap .left .left_center ul li .li-two ul li {
+  height: .3rem;
+  display: flex;
+  align-items: center;
+  color: #6C7885;
+  margin-left: .07rem;
+}
+
+.wrap .left .left_center ul li .li-two ul li > span {
+  width: 5px;
+  height: 5px;
+  background: #6C7885;
+  border-radius: 50%;
+  margin: 0 .1rem;
+  display: block;
+}
+
+.wrap .right {
+  flex: 1;
+}
+
+.login {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: url("../../static/img/timg.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+
+.login .mark {
+  width: 3.45rem;
+  height: 3.97rem;
+  background: #fff;
+  position: absolute;
+  top: 2.07rem;
+  left: 60%;
+}
